@@ -8,10 +8,13 @@
 
 #import "RDWebpageViewController.h"
 #import "RDWebpageViewContainer.h"
+#import "RDWebpageViewModel.h"
 
 @interface RDWebpageViewController () <UITableViewDelegate, UITableViewDataSource, UISearchResultsUpdating>
 
 @property (nonatomic, strong) RDWebpageViewContainer *viewContainer;
+
+@property (nonatomic, strong) RDWebpageViewModel *viewModel;
 
 @end
 
@@ -21,6 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.viewModel = [RDWebpageViewModel new];
     [self layoutUI];
 }
 

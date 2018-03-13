@@ -16,6 +16,7 @@
 #define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
 
+
 #pragma mark - 图片名称
 // 网页
 #define TABBAR_WEBPAGE                      @"tabbar_webpage"
@@ -70,6 +71,7 @@
 // 我的页面向右按钮
 #define MINE_CELL_MORE                      @"mine_cell_more"
 
+
 #pragma mark - 尺寸
 // tableviewcell宽
 #define TABLEVIEW_ROW_HEIGHT                60.0
@@ -78,17 +80,19 @@
 // navagation_item高
 #define NAVAGATION_ITEM_HETGHT              24
 // navagation_titleview宽
-#define NAVAGATION_TITLEVIEW_WIDTH          50
+#define NAVAGATION_TITLEVIEW_WIDTH          120
 // navagation_titleview高
-#define NAVAGATION_TITLEVIEW_HEIGHT         18
+#define NAVAGATION_TITLEVIEW_HEIGHT         20
 // navagation_item宽
 #define NAVAGATION_ITEM_TITLE_WIFTH         60
 // navagation_item高
 #define NAVAGATION_ITEM_TITLE_HETGHT        60
 
+
 #pragma mark - 字体大小
 //navagation字体大小
 #define NAVAGATION_ITEM_FONT                [UIFont systemFontOfSize:16.0]
+
 
 #pragma mark - 字体颜色
 // 主色调
@@ -103,8 +107,5 @@
 #define SEARCHBAR_BACKGROUND_COLOR          [UIColor colorWithRed:240.0/255.0 green:240.0/255.0 blue:240.0/255.0 alpha:1.0]
 // 白色
 #define RDER_WHITE_COLOR                    [UIColor whiteColor]
-
-#pragma mark - 时间格式 DateFormat:@"yy-MM-dd HH:mm"
-#define DATE_FORMAT_STRING                  @"yy/MM/dd HH:mm"
 
 #endif /* RDDataConstants_h */

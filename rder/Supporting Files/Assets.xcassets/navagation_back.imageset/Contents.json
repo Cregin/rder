@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "navagation_back.png",
       "scale" : "1x"
     },
     {

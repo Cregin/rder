@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "mark_color.png",
       "scale" : "1x"
     },
     {

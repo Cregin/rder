@@ -30,9 +30,9 @@
 		06FC9BF877257C83E19549F7 /* Pods-rder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rder.release.xcconfig"; path = "Pods/Target Support Files/Pods-rder/Pods-rder.release.xcconfig"; sourceTree = "<group>"; };
 		4AF933EE67CAD1925F5D598B /* libPods-rder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		750481DE1DB67DF40049B95A /* rder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		750481E21DB67DF40049B95A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		750481E21DB67DF40049B95A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		750481F01DB67DF40049B95A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		750481F21DB67DF40049B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		750481F21DB67DF40049B95A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7504820D1DB6817C0049B95A /* RDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
 		7504820E1DB6817C0049B95A /* RDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
 		752AE6FD20569A0A0089276C /* RDCoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDCoordinatingController.h; sourceTree = "<group>"; };
@@ -125,6 +125,7 @@
 		750481E01DB67DF40049B95A /* rder */ = {
 			isa = PBXGroup;
 			children = (
+				759173FD2057B8C8006D6A7B /* Localizable */,
 				75F3AAA92056C25B006C244D /* DataConstants */,
 				752AE6FC205699D10089276C /* Mediator */,
 				752AE70020569A2A0089276C /* Module */,
@@ -136,12 +137,12 @@
 		750481E11DB67DF40049B95A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				750481F21DB67DF40049B95A /* Info.plist */,
+				750481E21DB67DF40049B95A /* main.m */,
 				7504820D1DB6817C0049B95A /* RDAppDelegate.h */,
 				7504820E1DB6817C0049B95A /* RDAppDelegate.m */,
 				75AF3DC81DFE7BDE00C3E2ED /* Assets.xcassets */,
 				750481EF1DB67DF40049B95A /* LaunchScreen.storyboard */,
-				750481F21DB67DF40049B95A /* Info.plist */,
-				750481E21DB67DF40049B95A /* main.m */,
 				75F3AAA52056C135006C244D /* Localizable.strings */,
 				75F3AAA82056C239006C244D /* rder.pch */,
 			);
@@ -286,6 +287,14 @@
 				759173F220578BF6006D6A7B /* RDBaseViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		759173FD2057B8C8006D6A7B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Localizable;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		75F3AAA92056C25B006C244D /* DataConstants */ = {
@@ -542,7 +551,7 @@
 				DEVELOPMENT_TEAM = WEA9M6LGWM;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/rder/Supporting Files/rder.pch";
-				INFOPLIST_FILE = rder/Info.plist;
+				INFOPLIST_FILE = "rder/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -675,7 +684,7 @@
 				DEVELOPMENT_TEAM = WEA9M6LGWM;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/rder/Supporting Files/rder.pch";
-				INFOPLIST_FILE = rder/Info.plist;
+				INFOPLIST_FILE = "rder/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -698,7 +707,7 @@
 				DEVELOPMENT_TEAM = WEA9M6LGWM;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/rder/Supporting Files/rder.pch";
-				INFOPLIST_FILE = rder/Info.plist;
+				INFOPLIST_FILE = "rder/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";

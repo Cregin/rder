@@ -6,7 +6,7 @@
 //  Copyright © 2018年 gonghonglou. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RDBaseViewController.h"
 
 @interface RDSubscribeViewController : UIViewController
 

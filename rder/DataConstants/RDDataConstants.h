@@ -9,6 +9,13 @@
 #ifndef RDDataConstants_h
 #define RDDataConstants_h
 
+// iOS系统版本
+#define SYSTEM_VERSION_LESS_THAN(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+#define SCREEN_WIDTH    ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT   ([UIScreen mainScreen].bounds.size.height)
+
 #pragma mark - 图片名称
 // 网页
 #define TABBAR_WEBPAGE                      @"tabbar_webpage"

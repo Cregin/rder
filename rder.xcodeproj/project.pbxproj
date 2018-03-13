@@ -12,9 +12,11 @@
 		750481F11DB67DF40049B95A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750481EF1DB67DF40049B95A /* LaunchScreen.storyboard */; };
 		7504820F1DB6817C0049B95A /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7504820E1DB6817C0049B95A /* RDAppDelegate.m */; };
 		752AE6FF20569A0A0089276C /* RDCoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AE6FE20569A0A0089276C /* RDCoordinatingController.m */; };
-		752AE71220569B6E0089276C /* RDWebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AE71120569B6E0089276C /* RDWebpageViewController.m */; };
 		752AE71520569B790089276C /* RDSubscribeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AE71420569B790089276C /* RDSubscribeViewController.m */; };
 		752AE71820569B880089276C /* RDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752AE71720569B880089276C /* RDMineViewController.m */; };
+		759173F320578BF6006D6A7B /* RDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173F220578BF6006D6A7B /* RDBaseViewController.m */; };
+		759173F620578D6B006D6A7B /* RDWebpageViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173F520578D6B006D6A7B /* RDWebpageViewContainer.m */; };
+		759173F920578F73006D6A7B /* RDWebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173F820578F73006D6A7B /* RDWebpageViewController.m */; };
 		75AF3DC91DFE7BDE00C3E2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AF3DC81DFE7BDE00C3E2ED /* Assets.xcassets */; };
 		75C119A21DE6041200EB7A0B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C119A11DE6041200EB7A0B /* CFNetwork.framework */; };
 		75C119A41DE6042100EB7A0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C119A31DE6042100EB7A0B /* SystemConfiguration.framework */; };
@@ -34,12 +36,16 @@
 		7504820E1DB6817C0049B95A /* RDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
 		752AE6FD20569A0A0089276C /* RDCoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDCoordinatingController.h; sourceTree = "<group>"; };
 		752AE6FE20569A0A0089276C /* RDCoordinatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDCoordinatingController.m; sourceTree = "<group>"; };
-		752AE71020569B6E0089276C /* RDWebpageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebpageViewController.h; sourceTree = "<group>"; };
-		752AE71120569B6E0089276C /* RDWebpageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebpageViewController.m; sourceTree = "<group>"; };
 		752AE71320569B790089276C /* RDSubscribeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDSubscribeViewController.h; sourceTree = "<group>"; };
 		752AE71420569B790089276C /* RDSubscribeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDSubscribeViewController.m; sourceTree = "<group>"; };
 		752AE71620569B880089276C /* RDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDMineViewController.h; sourceTree = "<group>"; };
 		752AE71720569B880089276C /* RDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDMineViewController.m; sourceTree = "<group>"; };
+		759173F120578BF6006D6A7B /* RDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDBaseViewController.h; sourceTree = "<group>"; };
+		759173F220578BF6006D6A7B /* RDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDBaseViewController.m; sourceTree = "<group>"; };
+		759173F420578D6B006D6A7B /* RDWebpageViewContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebpageViewContainer.h; sourceTree = "<group>"; };
+		759173F520578D6B006D6A7B /* RDWebpageViewContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebpageViewContainer.m; sourceTree = "<group>"; };
+		759173F720578F73006D6A7B /* RDWebpageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebpageViewController.h; sourceTree = "<group>"; };
+		759173F820578F73006D6A7B /* RDWebpageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebpageViewController.m; sourceTree = "<group>"; };
 		75AF3DC81DFE7BDE00C3E2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75C119981DE5DB5C00EB7A0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		75C119A11DE6041200EB7A0B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -151,6 +157,7 @@
 		752AE70020569A2A0089276C /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				759173EF20578BD2006D6A7B /* Base */,
 				752AE70320569A770089276C /* Webpage */,
 				752AE70220569A6F0089276C /* Subscribe */,
 				752AE70120569A5C0089276C /* Mine */,
@@ -230,8 +237,8 @@
 		752AE70920569AB90089276C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				752AE71020569B6E0089276C /* RDWebpageViewController.h */,
-				752AE71120569B6E0089276C /* RDWebpageViewController.m */,
+				759173F720578F73006D6A7B /* RDWebpageViewController.h */,
+				759173F820578F73006D6A7B /* RDWebpageViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -253,8 +260,27 @@
 		752AE70C20569AD10089276C /* ViewContainer */ = {
 			isa = PBXGroup;
 			children = (
+				759173F420578D6B006D6A7B /* RDWebpageViewContainer.h */,
+				759173F520578D6B006D6A7B /* RDWebpageViewContainer.m */,
 			);
 			path = ViewContainer;
+			sourceTree = "<group>";
+		};
+		759173EF20578BD2006D6A7B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				759173F020578BDE006D6A7B /* ViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		759173F020578BDE006D6A7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				759173F120578BF6006D6A7B /* RDBaseViewController.h */,
+				759173F220578BF6006D6A7B /* RDBaseViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		75F3AAA92056C25B006C244D /* DataConstants */ = {
@@ -412,8 +438,10 @@
 			files = (
 				752AE71520569B790089276C /* RDSubscribeViewController.m in Sources */,
 				7504820F1DB6817C0049B95A /* RDAppDelegate.m in Sources */,
-				752AE71220569B6E0089276C /* RDWebpageViewController.m in Sources */,
+				759173F620578D6B006D6A7B /* RDWebpageViewContainer.m in Sources */,
 				752AE6FF20569A0A0089276C /* RDCoordinatingController.m in Sources */,
+				759173F920578F73006D6A7B /* RDWebpageViewController.m in Sources */,
+				759173F320578BF6006D6A7B /* RDBaseViewController.m in Sources */,
 				750481E31DB67DF40049B95A /* main.m in Sources */,
 				752AE71820569B880089276C /* RDMineViewController.m in Sources */,
 			);

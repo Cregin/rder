@@ -2,12 +2,12 @@
 //  RDWebpageViewController.h
 //  rder
 //
-//  Created by gonghonglou on 2018/3/12.
+//  Created by gonghonglou on 2018/3/13.
 //  Copyright © 2018年 gonghonglou. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RDBaseViewController.h"
 
-@interface RDWebpageViewController : UIViewController
+@interface RDWebpageViewController : RDBaseViewController
 
 @end

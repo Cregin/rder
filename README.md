@@ -1,8 +1,12 @@
 ![RDER](http://image.gonghonglou.com/rder/rder_logo.png)
 
-# RDER
+# RDER - 轻量极简的 RSS 订阅软件
 
-轻量极简的 RSS 订阅软件，开源重构中...
+App Store 搜索「RDER」欢迎下载
+
+App Store 预览：[https://itunes.apple.com/cn/app/id1178545654](https://itunes.apple.com/cn/app/id1178545654)
+
+开源重构中...
 
 并且会同步个人博客（[与佳期的个人博客 gonghonglou.com](http://gonghonglou.com/)）记录开发这款软件中所用到的一些 iOS 开发知识点。
 

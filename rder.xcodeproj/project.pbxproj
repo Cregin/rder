@@ -18,6 +18,8 @@
 		759173F620578D6B006D6A7B /* RDWebpageViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173F520578D6B006D6A7B /* RDWebpageViewContainer.m */; };
 		759173F920578F73006D6A7B /* RDWebpageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173F820578F73006D6A7B /* RDWebpageViewController.m */; };
 		759173FC2057B840006D6A7B /* RDWebpageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 759173FB2057B840006D6A7B /* RDWebpageViewModel.m */; };
+		759174012057BA03006D6A7B /* RDInternationalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 759174002057BA03006D6A7B /* RDInternationalControl.m */; };
+		759174042057BA47006D6A7B /* NSBundle+RDLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 759174032057BA47006D6A7B /* NSBundle+RDLanguage.m */; };
 		75AF3DC91DFE7BDE00C3E2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75AF3DC81DFE7BDE00C3E2ED /* Assets.xcassets */; };
 		75C119A21DE6041200EB7A0B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C119A11DE6041200EB7A0B /* CFNetwork.framework */; };
 		75C119A41DE6042100EB7A0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C119A31DE6042100EB7A0B /* SystemConfiguration.framework */; };
@@ -49,6 +51,10 @@
 		759173F820578F73006D6A7B /* RDWebpageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebpageViewController.m; sourceTree = "<group>"; };
 		759173FA2057B840006D6A7B /* RDWebpageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWebpageViewModel.h; sourceTree = "<group>"; };
 		759173FB2057B840006D6A7B /* RDWebpageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWebpageViewModel.m; sourceTree = "<group>"; };
+		759173FF2057BA03006D6A7B /* RDInternationalControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDInternationalControl.h; sourceTree = "<group>"; };
+		759174002057BA03006D6A7B /* RDInternationalControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDInternationalControl.m; sourceTree = "<group>"; };
+		759174022057BA47006D6A7B /* NSBundle+RDLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+RDLanguage.h"; sourceTree = "<group>"; };
+		759174032057BA47006D6A7B /* NSBundle+RDLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+RDLanguage.m"; sourceTree = "<group>"; };
 		75AF3DC81DFE7BDE00C3E2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75C119981DE5DB5C00EB7A0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		75C119A11DE6041200EB7A0B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -125,7 +131,7 @@
 		750481E01DB67DF40049B95A /* rder */ = {
 			isa = PBXGroup;
 			children = (
-				759173FD2057B8C8006D6A7B /* Localizable */,
+				759173FE2057B9E5006D6A7B /* Localizable */,
 				75F3AAA92056C25B006C244D /* DataConstants */,
 				752AE6FC205699D10089276C /* Mediator */,
 				752AE70020569A2A0089276C /* Module */,
@@ -289,12 +295,15 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		759173FD2057B8C8006D6A7B /* Localizable */ = {
+		759173FE2057B9E5006D6A7B /* Localizable */ = {
 			isa = PBXGroup;
 			children = (
+				759173FF2057BA03006D6A7B /* RDInternationalControl.h */,
+				759174002057BA03006D6A7B /* RDInternationalControl.m */,
+				759174022057BA47006D6A7B /* NSBundle+RDLanguage.h */,
+				759174032057BA47006D6A7B /* NSBundle+RDLanguage.m */,
 			);
-			name = Localizable;
-			path = "New Group";
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 		75F3AAA92056C25B006C244D /* DataConstants */ = {
@@ -455,7 +464,9 @@
 				7504820F1DB6817C0049B95A /* RDAppDelegate.m in Sources */,
 				759173F620578D6B006D6A7B /* RDWebpageViewContainer.m in Sources */,
 				752AE6FF20569A0A0089276C /* RDCoordinatingController.m in Sources */,
+				759174042057BA47006D6A7B /* NSBundle+RDLanguage.m in Sources */,
 				759173F920578F73006D6A7B /* RDWebpageViewController.m in Sources */,
+				759174012057BA03006D6A7B /* RDInternationalControl.m in Sources */,
 				759173F320578BF6006D6A7B /* RDBaseViewController.m in Sources */,
 				750481E31DB67DF40049B95A /* main.m in Sources */,
 				752AE71820569B880089276C /* RDMineViewController.m in Sources */,

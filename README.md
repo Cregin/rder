@@ -16,7 +16,11 @@ App Store 预览：[https://itunes.apple.com/cn/app/id1178545654](https://itune
 
 ## 关于本地化语言设置
 
-请参考我的个人博客文章：[iOS应用程序语言本地化及应用内语言设置](http://gonghonglou.com/2016/10/29/set-language/)
+iOS 应用内语言设置工具：[GHLLocalizable](https://github.com/gonghonglou/GHLLocalizable)
+
+请参考我的个人博客文章：    
+[iOS应用程序语言本地化及应用内语言设置（一）](http://gonghonglou.com/2016/10/29/set-language/)
+[iOS应用程序语言本地化及应用内语言设置（二）](http://gonghonglou.com/2018/03/14/set-language-2/)
 
 ## 关于 MVVM 设计模式搭建项目基础架构
 
